@@ -1,0 +1,14 @@
+{
+    "apps": [
+      {
+        "name": "api-production",
+        "script": "./src/main.js",
+        "watch": true,
+        "ignore_watch": ["node_modules", "logs", "schema.gql"],
+        "watch_options": {
+          "followSymlinks": false
+        }
+      }
+    ]
+  }
+  
